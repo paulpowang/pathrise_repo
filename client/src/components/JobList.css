@@ -1,0 +1,17 @@
+.job-url {
+  word-wrap: break-word;
+}
+.job-url a {
+  text-decoration: none;
+}
+.job-list {
+  padding: 30px;
+}
+
+.table-id {
+  padding: auto;
+  margin: auto;
+}
+table {
+  table-layout: fixed;
+}

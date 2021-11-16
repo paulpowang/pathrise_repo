@@ -1,0 +1,46 @@
+.card {
+  margin: 30px;
+  width: 384px;
+  height: 195px;
+  display: grid;
+  direction: ltr;
+  grid-template-columns: 25% 1fr;
+  grid-template-rows: auto;
+  border-radius: 5px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  overflow-y: hidden;
+  padding: 20px;
+}
+
+.card img {
+  width: 70px;
+  height: 70px;
+}
+
+.rating {
+  float: right;
+  color: green;
+  margin: -10px;
+  font-size: small;
+}
+
+.description {
+  margin-top: 10px;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
