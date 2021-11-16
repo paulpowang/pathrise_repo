@@ -13,8 +13,15 @@ run `npm start` to start client
 
 After server and client run
 if job_source column not in table
-use `http://localhost:3000/add_jobsource_col_to_table` to add job_source column
-then use `http://localhost:3000/add_jobsource_data_to_table` to add data to job_source base jobBoards.json
+use `http://localhost:5000/add_jobsource_col_to_table` to add job_source column
+then use `http://localhost:5000/add_jobsource_data_to_table` to add data to job_source base jobBoards.json
+
+
+![image](https://user-images.githubusercontent.com/22120359/142023079-61cc63ca-28c1-4435-b107-0cbcc73ffd4f.png)
+
+![image](https://user-images.githubusercontent.com/22120359/142023941-0ae75d25-c4a5-4e41-9051-39037b93fa16.png)
+
+
 
 ## Available API
 
@@ -55,3 +62,7 @@ use for access postgresql
 regular react basic dependency, no extra added
 
 ## `/source/job_opportunities.csv`
+![image](https://user-images.githubusercontent.com/22120359/142022645-49c14b15-9467-4a27-a7e6-e52a75342363.png)
+![image](https://user-images.githubusercontent.com/22120359/142022734-1dcb9150-3849-4a43-930a-cf85c65e546b.png)
+
+
