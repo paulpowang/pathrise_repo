@@ -30,7 +30,8 @@ const JobList = ({ name, setIsJobOpportunityClick }) => {
       >
         &lt; Back{" "}
       </h5>
-      <h4>Job Source: {name}</h4>
+      <h3>Job Source: {name}</h3>
+      <h4>Job Listed: {jobListData.length}</h4>
       <table>
         <thead>
           <tr>
